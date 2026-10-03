@@ -32,7 +32,7 @@ int main() {
         std::cerr << "Некорректная сумма\n";
         return 1;
     }
-    std::cout << "Введите ежегодный платеж по кредиту: \n";
+    std::cout << "Введите ежегодный процент по кредиту: \n";
     std::cin >> procent;
     if (procent <= 0) {
         std::cerr << "Некорректный процент\n";
@@ -44,7 +44,7 @@ int main() {
         std::cerr << "Неккоректное количество лет\n";
         return 1;
     }
-    DifferentiatedPayment(amount, procent, year);
+    DifferentiatedPayment(procent, amount, year);
 
     return 0;
 }

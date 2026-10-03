@@ -118,3 +118,21 @@ void DifferentiatedPayment(10,200,1);
 ...
 В 12-й месяц платеж составит: 16.8056
 ````
+
+## ***История изменений проекта с хэшами комитов***
+
+| Хэш комита | Описание комита |
+|------------|----------------|
+| `75c3192`  | Initial commit |
+| `d9b24d5`  | Add file AnnuityPayment.cpp|
+| `30e338f`  | A program for calculating the annuity payment has been written |
+| `6dc5161`  | Add file DifferentiatedPayments.cpp|
+| `14b3aa7`  | A program has been written to calculate a differentiated payment |
+| `1d5665b`  | Add CmakeLists |
+| `e33e90d` | gitignore update|
+|`34ddb24` | A description has been added in AnnuityPayment.cpp |
+|`11618c2`| A description has been added in DifferentiatedPayments.cpp|
+|`2fa6bd5` | Fixed code in DifferentiatedPayments.cpp|
+|`de2ee03` | Add general description to documentation |
+|`3d36fc2` | Add functions description to documentation |
+|`8735100` | Update README.md |
